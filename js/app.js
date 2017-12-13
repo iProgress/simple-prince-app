@@ -1,20 +1,7 @@
 angular
 .module('app',[])
 .component('simplePrinceComponent', {
-    template: '<h1>Earth’s Changing Climate</h1>
-    <h2>Unit Guide</h2>
-
-    <img src="../images/banner.jpg" alt="Hero">
-
-    <p>© 2016 The Regents of the University of California. All rights reserved. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or
-    mechanical, including photocopy, recording, or any information storage or retrieval system without permission in writing from the publisher. Teachers using Amplify Science may
-    reproduce copymasters in sufficient quantities for classroom use only and not for resale.</p>
-
-    <div ng-repeat="item in $ctrl.pageContent">
-        <h3>{{item.header}}</h3>
-        <p>{{item.text}}</p>
-    </div>
-',
+    template: '<h1>Earth’s Changing Climate</h1><h2>Unit Guide</h2><img src="images/banner.jpg" alt="Hero"><p>© 2016 The Regents of the University of California. All rights reserved. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopy, recording, or any information storage or retrieval system without permission in writing from the publisher. Teachers using Amplify Science may reproduce copymasters in sufficient quantities for classroom use only and not for resale.</p><div ng-repeat="item in $ctrl.pageContent"><h3>{{item.header}}</h3><p>{{item.text}}</p></div>',
 
     controller: function() {
         this.pageContent = [{
