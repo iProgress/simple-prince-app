@@ -1,0 +1,51 @@
+@font-face {
+    src: url('../fonts/BentonSans-Book.ttf');
+    font-family: 'Benton Sans Book';
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/BentonSans-Light.ttf');
+    font-family: 'Benton Sans Light';
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/BentonSans-Medium.ttf');
+    font-family: 'Benton Sans Medium';
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.app {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.app img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Benton Sans Medium';
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Benton Sans Light';
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-family: 'Benton Sans Medium';
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Benton Sans Book';
+    font-size: 12px;
+}
